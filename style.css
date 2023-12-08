@@ -1,0 +1,98 @@
+h2{
+	width: 1000px;
+	text-align: center;
+	margin-left:200px;
+	font-size: 40px;
+	color: red;
+	transition-property: color;
+	transition-duration: 1s;
+}
+h2:hover{
+	color: green;
+	color: blue;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	background: #e7e7e7;
+}
+#wrapper{
+	background: #fff;
+	border: 2px solid gray;
+	width: 1000px;
+	box-shadow: 0 50px 50px -50px black;
+	margin: auto;
+	text-align: center;	
+	transition-property: padding,width,background,border-radius,outline,border,,box-shadow ,font-size;
+	transition-duration: 4s;
+}
+#wrapper:hover{
+	padding: 10px;
+	width: 900px;
+	box-shadow: 0 50px 50px -55px black;
+	border-radius: 20px;
+	border: 0;
+
+
+}
+#wrapper img{
+	width: 400px ;
+	height: 300px;
+	transition-property: width,border-radius, , height;
+	transition-duration: 4s;
+}
+#wrapper img:hover{
+	width: 400px ;
+	height: 350px;
+	border-radius: 20px;
+}
+#login-form input{
+	width: 40%;
+	border: 0;
+	border-bottom: 2px double lightblue;
+	transition-property: width,border-radius, outline,border ,border-bottom;
+	transition-duration: 4s;
+	padding: 10px;
+}
+#login-form input:hover{
+	width: 40%;
+	outline: 0;
+	border: 0;
+	border-radius: 8px;
+	border-bottom: 2px double blue;
+}
+#login-form input,button{
+		display: block;
+		position: relative;
+		top:  100px;
+		font-weight: bold;
+		margin: 15px;
+}
+button{
+	padding: 4px;
+	transition-property: padding,width,background,border-radius,outline,border,color,box-shadow ,font-size;
+	transition-duration: 4s;
+	
+
+}
+button:hover{
+	width: 100px;
+	background: skyblue;
+	border-radius: 12px;
+	outline: 0px;
+	border: 0px;
+	color: #fff;
+	padding: 7px;
+	box-shadow: -2px 2px 2px gray;
+	font-size: 20px;
+}
+img{
+	margin-left: 400px;
+	position: relative;
+	top:  -120px;
+
+}
